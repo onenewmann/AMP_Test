@@ -9,7 +9,6 @@ import { Footer } from './components/section/footer';
 import { Landing } from './components/section/landing';
 import { Roadmap } from './components/section/roadmap';
 import { PODs } from './components/section/PODs';
-import { Loading } from './components/loader/loader';
 import { Galaxy } from './components/galaxy/galaxy';
 import { Html } from '@react-three/drei';
 
@@ -38,7 +37,18 @@ const HTMLContent = () => {
         </group>
   );
 };
- 
+
+const Loading = () => {
+  return(
+        <Html center>
+          <div className='loader'>
+            <h3>Loading</h3>
+            <div className="planet"></div>
+          </div>
+      </Html>
+  );
+};
+
 function App() {
 
   useEffect(() => {
@@ -71,12 +81,7 @@ function App() {
       <div className='canvas darkBg'>
         
           <Canvas colorManagement camera={{position:[0,25,40], fov: 100}} >
-            <Suspense fallback={<Html center>
-                                  <div className='loader'>
-                                    <h3>Loading</h3>
-                                    <div className="planet"></div>
-                                  </div>
-                                </Html>}>
+            <Suspense fallback={<Loading />}>
                 <HTMLContent />
                 <Wormhole />
                 <Dolly />
