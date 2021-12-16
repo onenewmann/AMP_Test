@@ -24,9 +24,7 @@ export function Wormhole(props){
     const wormholeRef = useRef();
     const cloudsRef = useRef();
     const starRef = useRef();
-    const spaceshipRef = useRef();
-    const spiritRef = useRef();
-    const sateliteRef = useRef();
+
 
     useFrame(({ clock }) => {
         const elapsedTime = clock.getElapsedTime();
@@ -35,10 +33,7 @@ export function Wormhole(props){
         wormholeRef.current.rotation.z = elapsedTime / 10;
         cloudsRef.current.rotation.y = elapsedTime / -2;
         starRef.current.rotation.x = elapsedTime / -20;
-        spiritRef.current.rotation.y = elapsedTime / -2;
-        // spiritRef.current.rotation.x = elapsedTime / -2;
-        sateliteRef.current.rotation.y = elapsedTime / -2;
-        spaceshipRef.current.rotation.y =  elapsedTime / -5; //50 + Math.sin(elapsedTime) * 30
+
       });
 
     return (
@@ -59,15 +54,6 @@ export function Wormhole(props){
             <sphereGeometry args={[1.8, 32, 32]} />
             <meshStandardMaterial map={wormholeMap} metalness={0.98} roughnes={0.25} />
         </mesh>
-        <group ref={spaceshipRef}>
-            <Model  rotation-z={0} position={[0,-20,0]} scale={0.005} url='/starship.gltf' /> 
-        </group>
-        <group ref={spiritRef}>
-            <Model  rotation-z={0} position={[5,-9,0]} scale={0.95} url='/scene.gltf' /> 
-        </group>
-        <group ref={sateliteRef}>
-            <Model  rotation-z={0} position={[0,3,0]} scale={0.00002} url='/miner.gltf' /> 
-        </group>
     </>
     );
 }
