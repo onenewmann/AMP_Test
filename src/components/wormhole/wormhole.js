@@ -3,7 +3,7 @@ import WormholeMap from '../../assets/textures/wormhole.jpg';
 import CloudsMap from '../../assets/textures/cloud.png';
 import { TextureLoader } from "three";
 import { useLoader, useFrame } from "@react-three/fiber";
-import { Stars, useGLTF } from '@react-three/drei';
+import { Stars } from '@react-three/drei';
 
 
 export function Wormhole(props){

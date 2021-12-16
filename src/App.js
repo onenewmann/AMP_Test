@@ -9,7 +9,7 @@ import { Footer } from './components/section/footer';
 import { Landing } from './components/section/landing';
 import { Roadmap } from './components/section/roadmap';
 import { PODs } from './components/section/PODs';
-import { Meme } from './components/section/meme';
+import { Loading } from './components/loader/loader';
 import { Galaxy } from './components/galaxy/galaxy';
 import { Html } from '@react-three/drei';
 
@@ -69,14 +69,14 @@ function App() {
       </div>
       <Footer />
       <div className='canvas darkBg'>
-        <Canvas colorManagement camera={{position:[0,25,40], fov: 100}} >
-          <Suspense fallback={null}>
-            <HTMLContent />
-            <Wormhole />
-            <Dolly />
-            <Galaxy />
-          </Suspense>
-        </Canvas>
+        <Suspense fallback={<Loading />}>
+          <Canvas colorManagement camera={{position:[0,25,40], fov: 100}} >
+              <HTMLContent />
+              <Wormhole />
+              <Dolly />
+              <Galaxy />
+          </Canvas>
+        </Suspense>
       </div>
     </div>
   );
