@@ -5,17 +5,6 @@ import { TextureLoader } from "three";
 import { useLoader, useFrame } from "@react-three/fiber";
 import { Stars, useGLTF } from '@react-three/drei';
 
-function Model({ url, ...props }) {
-    const gltf = useGLTF(url)
-    return <primitive object={gltf.scene} {...props} />
-  }
-
-// const Model = () => {
-//     const gltf = useGLTF('/scene.gltf')
-//     const spaceshipRef = useRef();
-//     return <primitive ref={spaceshipRef} object={gltf.scene} dispose={null} position={[0, -2, 0]} scale={0.1} rotation={[0,0,-1.55]} />;
-//   };
-  
 
 export function Wormhole(props){
 
