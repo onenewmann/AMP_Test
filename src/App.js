@@ -74,7 +74,7 @@ function App() {
             <Suspense fallback={<Html center>
                                   <div className='loader'>
                                     <h3>Loading</h3>
-                                    <div class="planet"></div>
+                                    <div className="planet"></div>
                                   </div>
                                 </Html>}>
                 <HTMLContent />
