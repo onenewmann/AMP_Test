@@ -1,5 +1,5 @@
 import './App.scss';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
+import { Canvas, Dom, useFrame, useThree } from 'react-three-fiber';
 import React, { Suspense, useEffect, useState } from "react";
 import { Wormhole } from "./components/wormhole/wormhole";
 import { Header } from './components/section/header';
@@ -69,14 +69,21 @@ function App() {
       </div>
       <Footer />
       <div className='canvas darkBg'>
-        <Suspense fallback={<Loading />}>
+        
           <Canvas colorManagement camera={{position:[0,25,40], fov: 100}} >
-              <HTMLContent />
-              <Wormhole />
-              <Dolly />
-              <Galaxy />
+            <Suspense fallback={<Html center>
+                                  <div className='loader'>
+                                    <h3>Loading</h3>
+                                    <div class="planet"></div>
+                                  </div>
+                                </Html>}>
+                <HTMLContent />
+                <Wormhole />
+                <Dolly />
+                <Galaxy />
+            </Suspense>
           </Canvas>
-        </Suspense>
+        
       </div>
     </div>
   );
