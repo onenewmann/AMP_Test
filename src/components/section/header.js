@@ -22,7 +22,7 @@ export function Header() {
           <p className="bottom-space-xsm" />
           <div className='row'>
             <ul>
-                <li><a href="https://twitter.com/">White</a></li>
+                <li><a href="https://twitter.com/">Twitter</a></li>
                 <li><a href="https://codepen.io/">Discord</a></li>
                 <li><a href="https://dribbble.com/">Telegram</a></li>
                 <li><a href="https://github.com/">Github</a></li>

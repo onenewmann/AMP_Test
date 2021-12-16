@@ -272,7 +272,7 @@ li:hover ~ li p {
     padding: 2px 5px 0px 5px;
   }
   .token__container-card {
-    width: 100%;
+    width: 95vw;
     height: fit-content;
   }
   .token__wrapper {
@@ -283,6 +283,7 @@ li:hover ~ li p {
   }
   .row {
     flex-flow: column;
+    align-items: center;
   }
   .token__container-section {
     width: 75vw;
@@ -353,7 +354,7 @@ li:hover ~ li p {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0rem 8rem;
   color: #f4f4f4;
   text-transform: uppercase;
@@ -1596,8 +1597,11 @@ svg {
 }
 @media screen and (max-width: 960px) {
   .tree {
-    margin: 0px 20px 0px 0px;
-    transform: scale(0.5);
+    margin: 0px 50px 0px 0px;
+    transform: scale(0.45);
+  }
+  .mobile-img {
+    transform: scale(0.65);
   }
 }
 

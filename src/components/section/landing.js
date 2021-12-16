@@ -48,20 +48,20 @@ export function Landing() {
                 </div>
                 <div className="col">
                   <div className='float-div'>
-                    <img src="images/upsidedown.gif" width="350px" alt="" style={{marginLeft:'-50px'}} />
+                    <img src="images/upsidedown.gif" width="250px" alt="" style={{marginLeft:'-50px'}} />
                   </div>
                 </div>
             </div>
         <div className='col'>
           <h3 style={{fontSize: '25px', textAlign:'center'}}>Blockchain Agnostic For Multi-Chain Support</h3>
-            <p style={{fontSize: '15px', textAlign:'center'}}>
+            <p style={{fontSize: '15px', textAlign:'justify'}}>
             To support its ecosystem of financial products, COSMOSAPIENS DAO runs its DeFi services on a number of different blockchains.
             Started with the goal of building on Substrate as a Polkadot-first project, COSMOSAPIENS DAO now also offers its services on Binance Smart Chain
             Polygon and  Ethereum. Moving forward, it will be available on HECO, Solana, RioChain, and more!</p>
         </div>
         <div className="col">
             <div className='img-zoom'>
-              <img src="images/multichains.png" width="350px" alt="" style={{marginLeft:'0px'}} />
+              <img src="images/multichains.png" width="200px" alt="" style={{marginLeft:'0px'}} />
             </div>
         </div>
         <p className="bottom-space-sm" />

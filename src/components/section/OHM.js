@@ -30,7 +30,7 @@ export function OHM() {
                   </div>
                   <div className='bottom-space-md' />
                   <div className='row'>
-                    <div className="token__container" style={{flexFlow: 'row', width: '400px', marginTop:'-10px'}}>
+                    <div className="token__container" style={{flexFlow: 'row', width: '350px', marginTop:'-10px'}}>
                         <h2 style={{display: 'flex',fontSize: '45px', fontWeight: '900', textAlign: 'end'}}>
                             GAME&emsp;
                         </h2>
@@ -50,7 +50,9 @@ export function OHM() {
                 <div className='bottom-space-md' />
                 <div className='row'>
                   <div className="col">
+                    <div className="mobile-img">
                           <img src="images/web/box-diagram.png" width="550px" alt="" style={{marginLeft:'0px'}} />
+                      </div>
                   </div>
                 </div>
                 <div className='bottom-space-xsm' />

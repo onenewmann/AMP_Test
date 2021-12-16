@@ -45,7 +45,7 @@ export function Token() {
                 
                 <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'-10px'}}>
                     <h2 style={{display: 'flex',fontSize: '20px', fontWeight: '900', textAlign: 'end'}}>
-                        LOW TAX&emsp;
+                        TAX&emsp;
                     </h2>
                     <hr width="3" size="50"/>
                     <h2 style={{fontSize: '35px',fontWeight: '100',textAlign: 'start'}}>
