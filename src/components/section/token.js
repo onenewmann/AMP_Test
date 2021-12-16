@@ -146,7 +146,7 @@ export function Token() {
                     </h2>
                   </div>
                 <div className='row'>
-                  <div class="tree">
+                  <div className="tree">
                     <ul>
                       <li>
                         <a href="#">
@@ -259,7 +259,7 @@ export function Token() {
                 <div className='bottom-space-sm' />
                   <div className='row' style={{height:'250px'}}>
                     <div className='col'>
-                      <div class="drop"></div>
+                      <div className="drop"></div>
                     </div>
                   </div>
                   <div className='bottom-space-sm' />

@@ -14,13 +14,12 @@ export function Roadmap() {
             </h3>
             <p className='bottom-space-md' />
             <p style={{ fontSize: '20px', textAlign:'center'}}>We are here for the long haul.</p>
-            <p style={{textAlign:'center', fontSize:'16px'}}>
+            <p style={{textAlign:'justify', fontSize:'16px'}}>
               It's been a journey. Continued work thourgh the years in the crypto space. Software Development, Crypto Mining, Smart Contracts.
-              <br /> We are the middle children of history. Born too late to explore earth, born too early to explore space, 
+              We are the middle children of history. Born too late to explore earth, born too early to explore space, 
               but what we share is a wild imagination that has always elevated us up to the task and also born just in time to browse
-              dank memes.
-              <br /> We are the early adaptors, admiring everyone who is making a positive contribution to the community and the rest of humanity. 
-              <br /> Met amazing people along the way and here we are with discussions, plans and actions of expansion, 
+              dank memes. We are the early adaptors, admiring everyone who is making a positive contribution to the community and the rest of humanity. 
+              Met amazing people along the way and here we are with discussions, plans and actions of expansion, 
               metaverse estates and decetralization automnomy.
             </p>
         </div>
@@ -143,7 +142,7 @@ export function Roadmap() {
                 <h3  style={{ fontSize: '12px'}}>No global movements springs from individuals. It take a united collective behind something big.
                   <br />Together, we work hard, we laugh a lot, we brainstorm nonstop.
                   <br />Join our team to push forward the ongoing project.
-                  <br />We're looking for Developers, Architects, Designers and Community members to bring creativity to life.</h3>
+                  We're looking for Developers, Architects, Designers and Community members to bring creativity to life.</h3>
                   <p className='bottom-space-sm' />
                     <div className='row'>
                       <div className='col'>
