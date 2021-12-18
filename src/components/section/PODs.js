@@ -1,11 +1,11 @@
 import React from 'react';
+import { Partners } from './sub/partners';
 
 export function PODs() {
   return (
       <div className='container'>
-          <p className="bottom-space-md" />
+          <p className="bottom-space" />
             <div className="title">
-            <p className="bottom-space-md" />
                 <div className='cool-text'>METAVERSE</div>
             </div>
             <div className="row">
@@ -37,13 +37,10 @@ export function PODs() {
                     <h3 style={{fontSize: '15px', textAlign: 'justify'}}>
                         Spaces are not stagnant, they modify and adapt with time. We live in a place in time where the dialog is turning into a monologue,
                         people are loosing access or the feeling of local scale community. There are somethings we can't change but we can adapt as well.
-                        <br />
-                        <br />Our aim is to reestablish common spaces in collective habbitats.
-                        Our designers, experienced in urban and collective architecture,
-                        ready to transplant their real-life solutions into the digital space of Virtual Reality and
+                        Our aim is to reestablish common spaces in collective habbitats.
+                        Our designers began adapting their real-life solutions into the digital space of Virtual Reality and
                         build common spaces for all cosmosapien investors.
-                        <br />
-                        <br />VIP exclusive worlds as well as custom private spaces will be available 
+                        Exclusive worlds as well as custom private spaces available 
                         to all Cosmosapiens as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS,
                         forever yours to owns and use or share.
                         
@@ -81,7 +78,7 @@ export function PODs() {
 
                     </h3>
                 </div>
-                <div className='row' style={{marginTop:'100px', marginLeft:'0px', display:'block'}}>
+                <div className='col' style={{marginTop:'100px', marginLeft:'0px', display:'block'}}>
                     <div className="game-card">
                         <img src="images/game/1.gif" alt="City" className="game-image" />
                         <div className="game-text">

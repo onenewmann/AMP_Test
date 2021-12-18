@@ -30,7 +30,7 @@ export function TokenBanners() {
 
                       <div className='banner__container-card'>
                         <a href='https://poocoin.app/tokens/'>
-                          <img src='images/web/poocoin.png'  width="125px" alt=''  />
+                          <img src='images/web/poocoin.png'  href='https://www.dextools.io/app/bsc/pair-explorer/' width="125px" alt=''  />
                         </a>
                       </div>
                     </div>

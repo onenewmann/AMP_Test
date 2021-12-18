@@ -152,22 +152,21 @@ export function Cosmosapiens() {
             <h3 style={{display: 'flex',fontSize: '17px', textAlign: 'center', margin:'10px'}}><b>N</b>o&emsp;<b>F</b>ucking&emsp;<b>T</b>hanks</h3>
             <div className="token__container">
                     <div className='token__container-section' >
-                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}>
+                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
                       Totally get it, WTF are those anyway? First of all they are basically free just pay the fee.
                       Your passport to the sickest clubhouse on the block...verse. 
                       All Cosmosapiens NFT holders will receave an early-bird status with early investor privilages and prises,
-                      like access to our metaverse virtual CosmoPODs, in-house designed CosmoPOD NFT singed and hosted
+                      like access to our metaverse virtual COMETA PODs, in-house designed COMETA NFT singed and hosted
                       on Ethereum Blockchain. - own a VR ETH-estate on the Metaverse.
                       <br />
                       <br />
-                      Cosmosapiens are the main game avatars and are the result of human & code work, 
+                      Cosmosapiens are the main game avatars and are the result of human hand-drawn & code work, 
                       each is unique and programmatically generated from over 150+ possible traits, 
                       including expression, headwear, clothing, and more. 
                       All cosmosapiens are dope, but some are rarer than others. 
                       The cosmosapiens are stored as ERC-721 tokens on the blockchain and hosted on IPFS. 
                       (See Record and Proof.) Purchasing a cosmosapien costs 0.08 ETH.
-                      <br />
-                      To access members-only areas such as THE COSMOPOD, 
+                      To access members-only areas such as THE COMETA, 
                       Cosmosapiens will need to be signed into their Metamask Wallet.
                       </h2>
                     </div>

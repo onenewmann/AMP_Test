@@ -118,7 +118,7 @@ export function Token() {
                       <div className='info__banner-card'>
                         <div className='info__banner-cardInfo'>
                         <h2>Sell Fee</h2>
-                          <p style={{textAlign:'center', margin:'-10px 0 10px 0'}} >An extra 5% fee is applied to all sells at launch of $Cosmosapiens Token 
+                          <p style={{textAlign:'center', margin:'-10px 0 10px 0'}} >An extra 5% fee is applied to all sells at launch of $COMETA Token 
                           and deacreased by 1% each month until droped and set at 1%.
                           This will allow us to reduce swing-trading and break whales’ control.</p>
                         </div>
@@ -151,7 +151,7 @@ export function Token() {
                       <li>
                         <a href="#">
                           <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                          COSMOSAPIENS
+                          CoMETA
                           <br /> Tokenomic
                           <br /> Tax
                           </h3>
@@ -188,7 +188,7 @@ export function Token() {
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                                   2% 
                                   <br />Pancakeswap
-                                  <br /> Exchange
+                                  <br /> Liquidity
                                   </h3>
                                 </a>
                               </li>
@@ -237,33 +237,12 @@ export function Token() {
                   </div>
                 </div>                
                   <div className='bottom-space-xsm' />
-                
-                <div className='bottom-space-sm' />
                   <h2 style={{display: 'flex',fontSize: '15px', textAlign: 'center'}}>
-                          1% of the Comosapiens Token 
-                          <br className='mobile-break' />tax directly goes into the 
-                          <br className='mobile-break' />Cosmosapien OHM Protocol Treasury. 
+                          1% of the COMETA Token 
+                          <br className='mobile-break' />tax goes into the 
+                          <br className='mobile-break' /> COMETA DeFi OHM Treasury. 
                   </h2>
-                <div className='bottom-space-xxxsm' />
-                <div className='row'>
-                    <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'-10px'}}>
-                        <h2 style={{display: 'flex',fontSize: '56px', fontWeight: '900', textAlign: 'end'}}>
-                            1%&emsp;
-                        </h2>
-                        <hr width="3" size="50"/>
-                        <h2 style={{fontSize: '30px',fontWeight: '50',textAlign: 'start'}}>
-                                &emsp;RESERVE
-                        </h2>
-                    </div>
-                </div>
-                <div className='bottom-space-sm' />
-                  <div className='row' style={{height:'250px'}}>
-                    <div className='col'>
-                      <div className="drop"></div>
-                    </div>
-                  </div>
                   <div className='bottom-space-sm' />
-                  <OHM />
               </div>
             </div>
           </div>

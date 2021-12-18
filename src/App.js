@@ -8,6 +8,7 @@ import { Token } from './components/section/token';
 import { Footer } from './components/section/footer';
 import { Landing } from './components/section/landing';
 import { Roadmap } from './components/section/roadmap';
+import { Partners } from './components/section/sub/partners';
 import { PODs } from './components/section/PODs';
 import { Galaxy } from './components/galaxy/galaxy';
 import { Html } from '@react-three/drei';
@@ -30,7 +31,7 @@ const HTMLContent = () => {
           <Html center>
             <div className='drei-container'>
               <h3>
-                wormhole_78c
+                .
               </h3>
             </div>
           </Html>

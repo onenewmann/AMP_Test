@@ -1,10 +1,13 @@
 
 import React  from 'react';
-
+import { TokenBanners } from './sub/token_banners';
+import { Partners } from './sub/partners';
 export function Footer() {
 
   return (
 <div className='footer'>
+    <p className='bottom-space' />
+    <TokenBanners />
     <div className='col'>
         <h2> Stay in touch </h2>
     </div>

@@ -14,15 +14,31 @@ export function Roadmap() {
             </h3>
             <p className='bottom-space-md' />
             <p style={{ fontSize: '20px', textAlign:'center'}}>We are here for the long haul.</p>
-            <p style={{textAlign:'justify', fontSize:'16px'}}>
-              It's been a journey. Continued work thourgh the years in the crypto space. Software Development, Crypto Mining, Smart Contracts.
+            <p style={{textAlign:'center', fontSize:'16px'}}>
+            No global movements springs from individuals. It takes a united collective behind something big.
+             Continued work thourgh the years in the crypto space. Software Development, Crypto Mining, Smart Contracts.
               We are the middle children of history. Born too late to explore earth, born too early to explore space, 
               but what we share is a wild imagination that has always elevated us up to the task and also born just in time to browse
-              dank memes. We are the early adaptors, admiring everyone who is making a positive contribution to the community and the rest of humanity. 
+              dank memes. Together, we work hard, we laugh a lot, we brainstorm nonstop. We are the early adaptors, 
+              admiring everyone who is making a positive contribution to the community and the rest of humanity. 
               Met amazing people along the way and here we are with discussions, plans and actions of expansion, 
-              metaverse estates and decetralization automnomy.
+              metaverse estates and decetralization automnomy. 
+              <br />We're looking for Developers, Architects, Designers and Community members to bring creativity to life.
+              Connect with us.
             </p>
         </div>
+                    <div className='row'>
+                      <div className='col'>
+                          <div className='btn'>
+                          Telegram
+                          </div>
+                      </div>
+                      <div className='col'>
+                          <div className='btn'>
+                          DISCORD
+                          </div>
+                      </div>
+                    </div>
         <div className='team__container'>
                 <div to='' className='team__container-card'>
                     <div className='team__container-cardInfo'>
@@ -138,24 +154,6 @@ export function Roadmap() {
                     </div>
                   </div>
                 </div>
-                  <p className='bottom-space-sm' />
-                <h3  style={{ fontSize: '12px'}}>No global movements springs from individuals. It take a united collective behind something big.
-                  <br />Together, we work hard, we laugh a lot, we brainstorm nonstop.
-                  <br />Join our team to push forward the ongoing project.
-                  We're looking for Developers, Architects, Designers and Community members to bring creativity to life.</h3>
-                  <p className='bottom-space-sm' />
-                    <div className='row'>
-                      <div className='col'>
-                          <div className='btn'>
-                          Telegram
-                          </div>
-                      </div>
-                      <div className='col'>
-                          <div className='btn'>
-                          DISCORD
-                          </div>
-                      </div>
-                    </div>
                     <p className='bottom-space-sm' />
         <div style={{maxWidth: '1000px', minWidth:'300px'}}>
           <div className='roadmap'><p style={{ fontSize: '15px', textAlign:'end'}}>Community</p>

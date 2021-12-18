@@ -239,6 +239,7 @@ li:hover ~ li p {
   flex-flow: column;
   align-items: center;
 }
+
 .token__container-section {
   width: 50vw;
 }
@@ -355,7 +356,7 @@ li:hover ~ li p {
   overflow: hidden;
   border-radius: 5px;
   font-size: 1.25rem;
-  padding:  0.05rem 8rem; 
+  padding:  0.5rem 8rem; 
   color: #f4f4f4;
   text-transform: uppercase;
   display: flex;
@@ -704,6 +705,11 @@ $white: #ffffff;
   border-radius: 4px;
   margin: 8px;
 }
+.info__container-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #1c2237;
+}
 .info__container-cardInfo {
   display: flex;
   flex-direction: column;
@@ -722,6 +728,11 @@ $white: #ffffff;
   border-radius: 4px;
   margin: 0px;
 }
+.info__banner-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #1c2237;
+}
 .info__banner-cardInfo {
   display: flex;
   flex-direction: column;
@@ -735,6 +746,10 @@ $white: #ffffff;
 }
 .icon-row img{
     width: 23px;
+}
+.icon-row img:hover {
+  transform: scale(1.26);
+  transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 960px) {
@@ -1444,7 +1459,7 @@ svg {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100px;
+	height: 150px;
 	letter-spacing: 1px;
 }
 
@@ -1452,6 +1467,7 @@ svg {
 	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	color: transparent;
+  margin: 5px;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
@@ -1523,6 +1539,19 @@ svg {
   flex-flow: column;
   align-items: center;
 }
+.banner__container-card:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+  color: #1c2237;
+}
+.partner__container-card {
+  width: 195px;
+  height: 75px;
+  margin: 25px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 .banner__container {
   display: flex;
   justify-content: center;
@@ -1570,9 +1599,7 @@ svg {
     align-items: center;
   }
 
-  .banner__container-card:hover {
-    transform: none;
-  }
+  
 }
 .tree {
 	margin: 0px 150px 0px 0px;
